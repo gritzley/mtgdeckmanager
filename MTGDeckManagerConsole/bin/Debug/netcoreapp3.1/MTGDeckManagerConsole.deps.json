@@ -1,0 +1,419 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MTGDeckManagerConsole/1.0.0": {
+        "dependencies": {
+          "Dapplo.Windows.Clipboard": "0.11.17",
+          "MTGDeckManager": "1.0.0",
+          "Nito.AsyncEx": "5.1.0",
+          "Xamarin.Essentials": "1.5.3.2",
+          "System.Reactive.Reference": "4.3.0.0",
+          "Interop.PlaLibrary": "1.0.0.0"
+        },
+        "runtime": {
+          "MTGDeckManagerConsole.dll": {}
+        }
+      },
+      "Dapplo.Log/1.3.26": {
+        "runtime": {
+          "lib/netstandard2.0/Dapplo.Log.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.26.19750"
+          }
+        }
+      },
+      "Dapplo.Windows.Clipboard/0.11.17": {
+        "dependencies": {
+          "Dapplo.Log": "1.3.26",
+          "Dapplo.Windows.Kernel32": "0.11.17",
+          "Dapplo.Windows.Messages": "0.11.17",
+          "System.Reactive": "4.3.2",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Dapplo.Windows.Clipboard.dll": {
+            "assemblyVersion": "0.11.0.0",
+            "fileVersion": "0.11.17.1906"
+          }
+        }
+      },
+      "Dapplo.Windows.Common/0.11.17": {
+        "runtime": {
+          "lib/netcoreapp3.1/Dapplo.Windows.Common.dll": {
+            "assemblyVersion": "0.11.0.0",
+            "fileVersion": "0.11.17.1906"
+          }
+        }
+      },
+      "Dapplo.Windows.Kernel32/0.11.17": {
+        "dependencies": {
+          "Dapplo.Windows.Common": "0.11.17"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Dapplo.Windows.Kernel32.dll": {
+            "assemblyVersion": "0.11.0.0",
+            "fileVersion": "0.11.17.1906"
+          }
+        }
+      },
+      "Dapplo.Windows.Messages/0.11.17": {
+        "dependencies": {
+          "Dapplo.Log": "1.3.26",
+          "Dapplo.Windows.Common": "0.11.17",
+          "System.Reactive": "4.3.2",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Dapplo.Windows.Messages.dll": {
+            "assemblyVersion": "0.11.0.0",
+            "fileVersion": "0.11.17.1906"
+          }
+        }
+      },
+      "MtgApiManager.Lib/2.2.1": {
+        "dependencies": {
+          "System.Text.Json": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MtgApiManager.Lib.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Nito.AsyncEx/5.1.0": {
+        "dependencies": {
+          "Nito.AsyncEx.Context": "5.1.0",
+          "Nito.AsyncEx.Coordination": "5.1.0",
+          "Nito.AsyncEx.Interop.WaitHandles": "5.1.0",
+          "Nito.AsyncEx.Oop": "5.1.0",
+          "Nito.AsyncEx.Tasks": "5.1.0",
+          "Nito.Cancellation": "1.1.0"
+        }
+      },
+      "Nito.AsyncEx.Context/5.1.0": {
+        "dependencies": {
+          "Nito.AsyncEx.Tasks": "5.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nito.AsyncEx.Context.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Nito.AsyncEx.Coordination/5.1.0": {
+        "dependencies": {
+          "Nito.AsyncEx.Tasks": "5.1.0",
+          "Nito.Collections.Deque": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nito.AsyncEx.Coordination.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Nito.AsyncEx.Interop.WaitHandles/5.1.0": {
+        "dependencies": {
+          "Nito.AsyncEx.Tasks": "5.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Nito.AsyncEx.Oop/5.1.0": {
+        "dependencies": {
+          "Nito.AsyncEx.Coordination": "5.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nito.AsyncEx.Oop.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Nito.AsyncEx.Tasks/5.1.0": {
+        "dependencies": {
+          "Nito.Disposables": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nito.AsyncEx.Tasks.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Nito.Cancellation/1.1.0": {
+        "dependencies": {
+          "Nito.Disposables": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nito.Cancellation.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Nito.Collections.Deque/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Nito.Collections.Deque.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Nito.Disposables/2.2.0": {
+        "dependencies": {
+          "System.Collections.Immutable": "1.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Nito.Disposables.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "System.Collections.Immutable/1.4.0": {},
+      "System.Numerics.Vectors/4.5.0": {},
+      "System.Reactive/4.3.2": {},
+      "System.Text.Json/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {},
+      "Xamarin.Essentials/1.5.3.2": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MTGDeckManager/1.0.0": {
+        "dependencies": {
+          "MtgApiManager.Lib": "2.2.1",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "MTGDeckManager.dll": {}
+        }
+      },
+      "System.Reactive.Reference/4.3.0.0": {
+        "runtime": {
+          "System.Reactive.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.2.55399"
+          }
+        }
+      },
+      "Interop.PlaLibrary/1.0.0.0": {
+        "runtime": {
+          "Interop.PlaLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MTGDeckManagerConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapplo.Log/1.3.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AAQCNnQ9r/EDvWCgdaqA/1SuDAQfmxyFycUmgAGEttMz72/giLZuCsETXRuCIC3XDw3ddz00pdYvYc5B3cSeJA==",
+      "path": "dapplo.log/1.3.26",
+      "hashPath": "dapplo.log.1.3.26.nupkg.sha512"
+    },
+    "Dapplo.Windows.Clipboard/0.11.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w80ll0cUjra2GcMXekPX6D4IPshq5thhbfV4/Wrc9JAFtIoL46ptUs6W0jHeMSqw4sfosu/8TrSCJBosXuErMA==",
+      "path": "dapplo.windows.clipboard/0.11.17",
+      "hashPath": "dapplo.windows.clipboard.0.11.17.nupkg.sha512"
+    },
+    "Dapplo.Windows.Common/0.11.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ol3a4ZT9xzs6efsIj1ObbHHtjd3xSRKzKI+ND5ssoD6KUuRqDq4jIfFcbrnsUs2R1fI3bYSOgAmrzmx1+1Iswg==",
+      "path": "dapplo.windows.common/0.11.17",
+      "hashPath": "dapplo.windows.common.0.11.17.nupkg.sha512"
+    },
+    "Dapplo.Windows.Kernel32/0.11.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-89MCvEaFJm/os5eQpdKUoti+FzBdUNtaCnIrDW/aI+YU1u3eHoPEBPPyWN6y32E8WbiBL0UI477Y3h91Q3qpug==",
+      "path": "dapplo.windows.kernel32/0.11.17",
+      "hashPath": "dapplo.windows.kernel32.0.11.17.nupkg.sha512"
+    },
+    "Dapplo.Windows.Messages/0.11.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DVwAue15Ypb0Qv6tas0HINvf7wf1iqFiXzS7TjIpIH0KmQ72bkRQaIvbbk70PAOk5Tg6i/wZXkdFnJwjJgejyQ==",
+      "path": "dapplo.windows.messages/0.11.17",
+      "hashPath": "dapplo.windows.messages.0.11.17.nupkg.sha512"
+    },
+    "MtgApiManager.Lib/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kj4jc/Kr+NQev47H01agzAqe6fSxU2bK1FnAetQEDN6rS54KmIypq9XRVYyqul66wpl2qUh4DBFjuvjvBohpGA==",
+      "path": "mtgapimanager.lib/2.2.1",
+      "hashPath": "mtgapimanager.lib.2.2.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Nito.AsyncEx/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KOahZdW0fRLnoym5lGtyWpFUZ94I5s0wLgYF5RHhK8RUhXpCiEX+185qjNvkse3H9WJV2/pFfPlKZHv8Eej7Hw==",
+      "path": "nito.asyncex/5.1.0",
+      "hashPath": "nito.asyncex.5.1.0.nupkg.sha512"
+    },
+    "Nito.AsyncEx.Context/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EE7M37c5E/kvulzEkpUR6v1AnK34b2wysOLJHSjl78p/3hL7grte0XCPRqCfLZDwq98AD9GHMTCRfZy7TEeHhw==",
+      "path": "nito.asyncex.context/5.1.0",
+      "hashPath": "nito.asyncex.context.5.1.0.nupkg.sha512"
+    },
+    "Nito.AsyncEx.Coordination/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nv+oA+cSxidjOImiKcz2FJgMIDxiK0A6xormKmsUklUBjTNqQpjtdJsACMgTQG56PkTHdbMi5QijPTTUsmcCeg==",
+      "path": "nito.asyncex.coordination/5.1.0",
+      "hashPath": "nito.asyncex.coordination.5.1.0.nupkg.sha512"
+    },
+    "Nito.AsyncEx.Interop.WaitHandles/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wFm3lrXXNPBtZHjLI21xhcADoh5CzO5KKNO38ybLO/CcL9zMUWWfsNiAFbw8JGp/wHoxhfdEUlThBnY3XaLR/w==",
+      "path": "nito.asyncex.interop.waithandles/5.1.0",
+      "hashPath": "nito.asyncex.interop.waithandles.5.1.0.nupkg.sha512"
+    },
+    "Nito.AsyncEx.Oop/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J5DVgQrmE9qMNhK2eEMsuEw7V7cw7MIPrv3jqqQWolzDXkOxJFFYKUK+4dnC6UAEmum3xRVD2oBAoXg0vdYDDQ==",
+      "path": "nito.asyncex.oop/5.1.0",
+      "hashPath": "nito.asyncex.oop.5.1.0.nupkg.sha512"
+    },
+    "Nito.AsyncEx.Tasks/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tU3Ib4zs8ivM+uS8n7F7ReWZlA3mODyLqwPE+v+WJI94hZ8xLXl+a9npfj/IcmeXo9a6fGKLWkswKQHOeTWqwA==",
+      "path": "nito.asyncex.tasks/5.1.0",
+      "hashPath": "nito.asyncex.tasks.5.1.0.nupkg.sha512"
+    },
+    "Nito.Cancellation/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BSezc6jsEEAoa8UtVjQ6Qr/D5xX+FozlDKFHAvDeTv24I7ZZmmfbFxEmdjaSLnrboz1WMRjUKCQwZw7Gf4+WcA==",
+      "path": "nito.cancellation/1.1.0",
+      "hashPath": "nito.cancellation.1.1.0.nupkg.sha512"
+    },
+    "Nito.Collections.Deque/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RXHe531Oaw2IathDr0Q2kbid0iuudBxtgZsfBZ2eUPuFI8I1P7HMiuUeaIefqYykcDYFTDQsFAPAljduIjihLA==",
+      "path": "nito.collections.deque/1.1.0",
+      "hashPath": "nito.collections.deque.1.1.0.nupkg.sha512"
+    },
+    "Nito.Disposables/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QcL+uBwUCEoK8GKp/WzjdCiG8/3G1WLlVNJgLJUNG7bIIVAcEV+Mro4s53VT4Nd8xMSplv0gy+Priw44vRvLaA==",
+      "path": "nito.disposables/2.2.0",
+      "hashPath": "nito.disposables.2.2.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-71hw5RUJRu5+q/geUY69gpXD8Upd12cH+F3MwpXV2zle7Bqqkrmc1JblOTuvUcgmdnUtQvBlV5e1d6RH+H2lvA==",
+      "path": "system.collections.immutable/1.4.0",
+      "hashPath": "system.collections.immutable.1.4.0.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.Reactive/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WhGkScPWxw2pp7UwRW8M1OvYZ3WUDPC2wJ0aiuaB4KRD3bt4wLkgHgYnOUu87WRhsurvv5LN0E63iWOEza2o8g==",
+      "path": "system.reactive/4.3.2",
+      "hashPath": "system.reactive.4.3.2.nupkg.sha512"
+    },
+    "System.Text.Json/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
+      "path": "system.text.json/5.0.0",
+      "hashPath": "system.text.json.5.0.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "Xamarin.Essentials/1.5.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
+      "path": "xamarin.essentials/1.5.3.2",
+      "hashPath": "xamarin.essentials.1.5.3.2.nupkg.sha512"
+    },
+    "MTGDeckManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Reactive.Reference/4.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.PlaLibrary/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

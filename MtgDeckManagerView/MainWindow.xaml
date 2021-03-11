@@ -1,0 +1,28 @@
+﻿<Window x:Class="MtgDeckManagerView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+        xmlns:local="clr-namespace:MtgDeckManagerView"
+        xmlns:viewModels="clr-namespace:MtgDeckManagerView.ViewModels"
+        xmlns:logic="clr-namespace:MtgDeckManagerView.Logic"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        DataContext="{dxmvvm:ViewModelSource Type=viewModels:MainWindowVM}"
+        d:DataContext="{d:DesignInstance Type=viewModels:MainWindowVM}">
+    <Window.Resources>
+
+        <DataTemplate x:Key="DeckTemplate" DataType="{x:Type logic:DeckEntry}">
+            <Label Content="{Binding Name}" />
+        </DataTemplate>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <ListBox ItemsSource="{Binding DeckEntries}" Grid.Column="1" ItemTemplate="{StaticResource DeckTemplate}"/>
+    </Grid>
+</Window>

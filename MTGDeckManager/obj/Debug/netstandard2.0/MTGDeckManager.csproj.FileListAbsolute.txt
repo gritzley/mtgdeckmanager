@@ -1,0 +1,8 @@
+C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MTGDeckManager\bin\Debug\netstandard2.0\MTGDeckManager.deps.json
+C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MTGDeckManager\bin\Debug\netstandard2.0\MTGDeckManager.dll
+C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MTGDeckManager\bin\Debug\netstandard2.0\MTGDeckManager.pdb
+C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MTGDeckManager\obj\Debug\netstandard2.0\MTGDeckManager.csprojAssemblyReference.cache
+C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MTGDeckManager\obj\Debug\netstandard2.0\MTGDeckManager.AssemblyInfoInputs.cache
+C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MTGDeckManager\obj\Debug\netstandard2.0\MTGDeckManager.AssemblyInfo.cs
+C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MTGDeckManager\obj\Debug\netstandard2.0\MTGDeckManager.dll
+C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MTGDeckManager\obj\Debug\netstandard2.0\MTGDeckManager.pdb
