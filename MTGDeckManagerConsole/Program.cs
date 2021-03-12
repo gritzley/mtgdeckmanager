@@ -1,7 +1,6 @@
 ﻿using MTGDeckManager;
 using System;
 using System.Linq;
-using System.Text.RegularExpressions;
 using System.Windows;
 
 namespace MTGDeckManagerConsole
@@ -12,6 +11,8 @@ namespace MTGDeckManagerConsole
         [STAThread]
         static void Main(string[] args)
         {
+            System.Console.WriteLine("test");
+            System.Console.ReadLine();
             deckManager = new DeckManager();
             bool running = true;
             do

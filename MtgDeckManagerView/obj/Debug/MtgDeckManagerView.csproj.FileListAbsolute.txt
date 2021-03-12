@@ -47,3 +47,28 @@ C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MtgDeckManagerView\obj\D
 C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MtgDeckManagerView\obj\Debug\MtgDeckManagerView.Properties.Resources.resources
 C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MtgDeckManagerView\obj\Debug\MtgDeckManagerView.csproj.GenerateResource.cache
 C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MtgDeckManagerView\obj\Debug\MtgDeckManagerView.csproj.CopyComplete
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\obj\Debug\MtgDeckManagerView.csprojAssemblyReference.cache
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\obj\Debug\App.g.cs
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\obj\Debug\MtgDeckManagerView_MarkupCompile.cache
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\bin\Debug\MtgDeckManagerView.exe.config
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\bin\Debug\MtgDeckManagerView.exe
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\bin\Debug\MtgDeckManagerView.pdb
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\bin\Debug\DevExpress.Mvvm.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\bin\Debug\DevExpress.Mvvm.UI.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\bin\Debug\MTGDeckManager.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\bin\Debug\MTGDeckManager.pdb
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\bin\Debug\DevExpress.Mvvm.pdb
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\bin\Debug\DevExpress.Mvvm.UI.pdb
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\obj\Debug\MainWindow.g.cs
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\obj\Debug\MtgDeckManagerView_MarkupCompile.lref
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\obj\Debug\MainWindow.baml
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\obj\Debug\MtgDeckManagerView.g.resources
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\obj\Debug\MtgDeckManagerView.Properties.Resources.resources
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\obj\Debug\MtgDeckManagerView.csproj.GenerateResource.cache
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\obj\Debug\MtgDeckManagerView.csproj.CoreCompileInputs.cache
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\obj\Debug\MtgDeckManagerView.csproj.CopyComplete
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\obj\Debug\MtgDeckManagerView.exe
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\obj\Debug\MtgDeckManagerView.pdb
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\bin\Debug\Newtonsoft.Json.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MtgDeckManagerView\bin\Debug\Newtonsoft.Json.xml

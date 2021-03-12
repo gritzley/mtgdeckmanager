@@ -34,3 +34,41 @@ C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MTGDeckManagerConsole\bi
 C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Nito.Collections.Deque.dll
 C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Nito.Disposables.dll
 C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\MTGDeckManagerConsole.exe
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\MTGDeckManagerConsole.deps.json
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\MTGDeckManagerConsole.runtimeconfig.json
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\MTGDeckManagerConsole.runtimeconfig.dev.json
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\MTGDeckManagerConsole.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\MTGDeckManagerConsole.pdb
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Dapplo.Log.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Dapplo.Windows.Clipboard.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Dapplo.Windows.Common.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Dapplo.Windows.Kernel32.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Dapplo.Windows.Messages.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\MtgApiManager.Lib.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\MTGDeckManager.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\System.Reactive.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\MTGDeckManager.pdb
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\System.Reactive.xml
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Interop.PlaLibrary.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\obj\Debug\netcoreapp3.1\MTGDeckManagerConsole.csprojAssemblyReference.cache
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\obj\Debug\netcoreapp3.1\Interop.PlaLibrary.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\obj\Debug\netcoreapp3.1\MTGDeckManagerConsole.csproj.ResolveComReference.cache
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\obj\Debug\netcoreapp3.1\MTGDeckManagerConsole.AssemblyInfoInputs.cache
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\obj\Debug\netcoreapp3.1\MTGDeckManagerConsole.AssemblyInfo.cs
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\obj\Debug\netcoreapp3.1\MTGDeckManagerConsole.csproj.CoreCompileInputs.cache
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\obj\Debug\netcoreapp3.1\MTGDeckManagerConsole.csproj.CopyComplete
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\obj\Debug\netcoreapp3.1\MTGDeckManagerConsole.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\obj\Debug\netcoreapp3.1\MTGDeckManagerConsole.pdb
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\obj\Debug\netcoreapp3.1\MTGDeckManagerConsole.genruntimeconfig.cache
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Context.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Coordination.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Interop.WaitHandles.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Oop.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Tasks.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Nito.Cancellation.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Nito.Collections.Deque.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Nito.Disposables.dll
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManagerConsole\bin\Debug\netcoreapp3.1\Xamarin.Essentials.dll

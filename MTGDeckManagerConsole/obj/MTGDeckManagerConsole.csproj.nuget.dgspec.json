@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fritz Lloyd Wetzel\\source\\repos\\MTGDeckManager\\MTGDeckManagerConsole\\MTGDeckManagerConsole.csproj": {}
+    "C:\\Users\\frwetzel\\source\\repos\\mtgdeckmanager\\MTGDeckManagerConsole\\MTGDeckManagerConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fritz Lloyd Wetzel\\source\\repos\\MTGDeckManager\\MTGDeckManagerConsole\\MTGDeckManagerConsole.csproj": {
+    "C:\\Users\\frwetzel\\source\\repos\\mtgdeckmanager\\MTGDeckManagerConsole\\MTGDeckManagerConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fritz Lloyd Wetzel\\source\\repos\\MTGDeckManager\\MTGDeckManagerConsole\\MTGDeckManagerConsole.csproj",
+        "projectUniqueName": "C:\\Users\\frwetzel\\source\\repos\\mtgdeckmanager\\MTGDeckManagerConsole\\MTGDeckManagerConsole.csproj",
         "projectName": "MTGDeckManagerConsole",
-        "projectPath": "C:\\Users\\Fritz Lloyd Wetzel\\source\\repos\\MTGDeckManager\\MTGDeckManagerConsole\\MTGDeckManagerConsole.csproj",
-        "packagesPath": "C:\\Users\\Fritz Lloyd Wetzel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fritz Lloyd Wetzel\\source\\repos\\MTGDeckManager\\MTGDeckManagerConsole\\obj\\",
+        "projectPath": "C:\\Users\\frwetzel\\source\\repos\\mtgdeckmanager\\MTGDeckManagerConsole\\MTGDeckManagerConsole.csproj",
+        "packagesPath": "C:\\Users\\frwetzel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\frwetzel\\source\\repos\\mtgdeckmanager\\MTGDeckManagerConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fritz Lloyd Wetzel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\frwetzel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,9 +26,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Fritz Lloyd Wetzel\\source\\repos\\MTGDeckManager\\MTGDeckManager\\MTGDeckManager.csproj": {
-                "projectPath": "C:\\Users\\Fritz Lloyd Wetzel\\source\\repos\\MTGDeckManager\\MTGDeckManager\\MTGDeckManager.csproj"
+              "C:\\Users\\frwetzel\\source\\repos\\mtgdeckmanager\\MTGDeckManager\\MTGDeckManager.csproj": {
+                "projectPath": "C:\\Users\\frwetzel\\source\\repos\\mtgdeckmanager\\MTGDeckManager\\MTGDeckManager.csproj"
               }
             }
           }
@@ -41,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Dapplo.Windows.Clipboard": {
               "target": "Package",
@@ -71,23 +73,26 @@
             },
             "Microsoft.WindowsDesktop.App": {
               "privateAssets": "none"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.113\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Fritz Lloyd Wetzel\\source\\repos\\MTGDeckManager\\MTGDeckManager\\MTGDeckManager.csproj": {
+    "C:\\Users\\frwetzel\\source\\repos\\mtgdeckmanager\\MTGDeckManager\\MTGDeckManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fritz Lloyd Wetzel\\source\\repos\\MTGDeckManager\\MTGDeckManager\\MTGDeckManager.csproj",
+        "projectUniqueName": "C:\\Users\\frwetzel\\source\\repos\\mtgdeckmanager\\MTGDeckManager\\MTGDeckManager.csproj",
         "projectName": "MTGDeckManager",
-        "projectPath": "C:\\Users\\Fritz Lloyd Wetzel\\source\\repos\\MTGDeckManager\\MTGDeckManager\\MTGDeckManager.csproj",
-        "packagesPath": "C:\\Users\\Fritz Lloyd Wetzel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fritz Lloyd Wetzel\\source\\repos\\MTGDeckManager\\MTGDeckManager\\obj\\",
+        "projectPath": "C:\\Users\\frwetzel\\source\\repos\\mtgdeckmanager\\MTGDeckManager\\MTGDeckManager.csproj",
+        "packagesPath": "C:\\Users\\frwetzel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\frwetzel\\source\\repos\\mtgdeckmanager\\MTGDeckManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fritz Lloyd Wetzel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\frwetzel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,6 +104,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -110,6 +116,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "MtgApiManager.Lib": {
               "target": "Package",
@@ -136,7 +143,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.113\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
