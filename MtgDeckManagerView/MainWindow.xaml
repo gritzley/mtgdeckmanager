@@ -7,6 +7,7 @@
         xmlns:local="clr-namespace:MtgDeckManagerView"
         xmlns:viewModels="clr-namespace:MtgDeckManagerView.ViewModels"
         xmlns:logic="clr-namespace:MtgDeckManagerView.Logic"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
         DataContext="{dxmvvm:ViewModelSource Type=viewModels:MainWindowVM}"
@@ -14,15 +15,58 @@
     <Window.Resources>
 
         <DataTemplate x:Key="DeckTemplate" DataType="{x:Type logic:DeckEntry}">
-            <Label Content="{Binding Name}" />
+            <Label Content="{Binding Title}" />
         </DataTemplate>
-
+        
     </Window.Resources>
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
-            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
-        <ListBox ItemsSource="{Binding DeckEntries}" Grid.Column="1" ItemTemplate="{StaticResource DeckTemplate}"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ListBox 
+            ItemsSource="{Binding DeckEntries}"
+            ItemTemplate="{StaticResource DeckTemplate}"
+            SelectedItem="{Binding SelectedDeck, UpdateSourceTrigger=PropertyChanged}"/>
+        <ListBox
+            Grid.Column="1"
+            ItemsSource="{Binding SelectedDeck.DecklistDivided}"
+            SelectedItem="{Binding SelectedCard, UpdateSourceTrigger=PropertyChanged}"
+            SelectionChanged="SelectedCardChanged">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="SelectionChanged">
+                    <i:InvokeCommandAction Command="{Binding StartLoadImageCommand}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </ListBox>
+        <Image
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Source="{Binding ImageSource}"/>
+        <Button 
+            Grid.Row="1"
+            Command="{Binding ImportFromClipboardCommand}">
+            Import from Clipboard
+        </Button>
+        <Button
+            Grid.Row="1"
+            Grid.Column="1"
+            Command="{Binding ExportToClipboardCommand}">
+                Export to Clipboard
+        </Button>
+        <Button
+            Grid.Row="1"
+            Grid.Column="2"
+            Command="{Binding DeleteCurrentDeckCommand}">
+                Delete Deck
+        </Button>
     </Grid>
+
 </Window>

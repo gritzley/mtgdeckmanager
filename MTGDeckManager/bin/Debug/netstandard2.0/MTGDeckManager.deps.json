@@ -9,12 +9,33 @@
     ".NETStandard,Version=v2.0/": {
       "MTGDeckManager/1.0.0": {
         "dependencies": {
-          "MtgApiManager.Lib": "2.2.1",
+          "MtgApiManager.Lib": "2.3.0",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "MTGDeckManager.dll": {}
+        }
+      },
+      "Flurl/3.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "Flurl.Http/3.0.1": {
+        "dependencies": {
+          "Flurl": "3.0.1",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Text.Encoding.CodePages": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.Http.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
@@ -29,14 +50,15 @@
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
-      "MtgApiManager.Lib/2.2.1": {
+      "MtgApiManager.Lib/2.3.0": {
         "dependencies": {
+          "Flurl.Http": "3.0.1",
           "System.Text.Json": "5.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/MtgApiManager.Lib.dll": {
-            "assemblyVersion": "2.2.1.0",
-            "fileVersion": "2.2.1.0"
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
           }
         }
       },
@@ -90,6 +112,17 @@
           }
         }
       },
+      "System.Text.Encoding.CodePages/4.5.1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.27129.4"
+          }
+        }
+      },
       "System.Text.Encodings.Web/5.0.0": {
         "dependencies": {
           "System.Memory": "4.5.4"
@@ -137,6 +170,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Flurl/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i7CuPSikVroBaWG8sPvO707Ex9C6BP5+r4JufKNU1FGMmiFgLJvNo1ttUg6ZiXIzUNknvIb1VUTIO9iEDucibg==",
+      "path": "flurl/3.0.1",
+      "hashPath": "flurl.3.0.1.nupkg.sha512"
+    },
+    "Flurl.Http/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wt4RrmYOPWu8v0sjuuSfhYBFzjfrCz4nJP48Kw2HFGssq0U6pMBPFHcL3zbsBFALJipAjgRET5mf+0Xz4ZnZpQ==",
+      "path": "flurl.http/3.0.1",
+      "hashPath": "flurl.http.3.0.1.nupkg.sha512"
+    },
     "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
       "type": "package",
       "serviceable": true,
@@ -151,12 +198,12 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
-    "MtgApiManager.Lib/2.2.1": {
+    "MtgApiManager.Lib/2.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kj4jc/Kr+NQev47H01agzAqe6fSxU2bK1FnAetQEDN6rS54KmIypq9XRVYyqul66wpl2qUh4DBFjuvjvBohpGA==",
-      "path": "mtgapimanager.lib/2.2.1",
-      "hashPath": "mtgapimanager.lib.2.2.1.nupkg.sha512"
+      "sha512": "sha512-tibUXhdtZmDjrw3Wxn7fdGBfVX2yWeWBFrGKfPXc/O4i61GHqW5R/tzpi1MAGslwK9pzD42E4T+6Gp103JFL1w==",
+      "path": "mtgapimanager.lib/2.3.0",
+      "hashPath": "mtgapimanager.lib.2.3.0.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",
@@ -199,6 +246,13 @@
       "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
       "path": "system.runtime.compilerservices.unsafe/5.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4J2JQXbftjPMppIHJ7IC+VXQ9XfEagN92vZZNoG12i+zReYlim5dMoXFC1Zzg7tsnKDM7JPo5bYfFK4Jheq44w==",
+      "path": "system.text.encoding.codepages/4.5.1",
+      "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
     },
     "System.Text.Encodings.Web/5.0.0": {
       "type": "package",

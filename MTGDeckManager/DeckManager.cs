@@ -11,12 +11,11 @@ namespace MTGDeckManager
     public class DeckManager
     {
         private static Regex _DeckFormatRegex = new Regex(@"(Commander\n(?<commander>.+\n)\n)?(Companion\n(?<companion>.+\n)\n)?(Deck\n(?<deck>(.+\n)+))(\nSideboard\n(?<sideboard>(.+\n)+))?");
-        private static Regex _CardRegex = new Regex(@"(?<amount>\d+) (?<name>[\w, ' ]+) \((?<setName>[A-Z0-9]{3})\) (?<collectorNr>\d{1,3})");
         private string _SaveDir;
         private JsonSerializer _JsonSerializer;
-
         private List<Deck> _Decks;
 
+        public static Regex CardRegex = new Regex(@"(?<amount>\d+) (?<name>[\w, ' ]+) \((?<setName>[A-Z0-9]{3})\) (?<collectorNr>\d{1,3})");
         public List<Deck> Decks { get { return _Decks; } }
         public DeckManager()
         {
@@ -35,10 +34,10 @@ namespace MTGDeckManager
             if (!_DeckFormatRegex.IsMatch(list)) return false;
             string[] deconstructedDeck = DeconstructDecklist(list);
 
-            if (!_CardRegex.IsMatch(deconstructedDeck[0]) && deconstructedDeck[0] != "") return false;
-            if (!_CardRegex.IsMatch(deconstructedDeck[1]) && deconstructedDeck[1] != "") return false;
-            if (!_CardRegex.IsMatch(deconstructedDeck[2])) return false;
-            if (!_CardRegex.IsMatch(deconstructedDeck[3]) && deconstructedDeck[3] != "") return false;
+            if (!CardRegex.IsMatch(deconstructedDeck[0]) && deconstructedDeck[0] != "") return false;
+            if (!CardRegex.IsMatch(deconstructedDeck[1]) && deconstructedDeck[1] != "") return false;
+            if (!CardRegex.IsMatch(deconstructedDeck[2])) return false;
+            if (!CardRegex.IsMatch(deconstructedDeck[3]) && deconstructedDeck[3] != "") return false;
             return true;
         }
         private string[] DeconstructDecklist(string list)
@@ -56,8 +55,8 @@ namespace MTGDeckManager
             {
                 string[] deconstructedDeck = DeconstructDecklist(list);
 
-                Card commander = MakeCard(_CardRegex.Match(deconstructedDeck[0]));
-                Card companion = MakeCard(_CardRegex.Match(deconstructedDeck[1]));
+                Card commander = MakeCard(CardRegex.Match(deconstructedDeck[0]));
+                Card companion = MakeCard(CardRegex.Match(deconstructedDeck[1]));
                 List<(int, Card)> mainDeck = CreateSubdeck(deconstructedDeck[2]);
                 List<(int, Card)> sideboard = CreateSubdeck(deconstructedDeck[3]);
                 return new Deck(mainDeck, sideboard, companion, commander);
@@ -68,7 +67,7 @@ namespace MTGDeckManager
         private List<(int, Card)> CreateSubdeck(string list)
         {
             if (list == null || list.Length == 0) return null;
-            return _CardRegex
+            return CardRegex
                 .Matches(list)
                 .Cast<Match>()
                 .Select<Match, (int, Card)>(e =>
@@ -76,7 +75,7 @@ namespace MTGDeckManager
                     MakeCard(e)))
                 .ToList();
         }
-        public Card MakeCard(Match match)
+        public static Card MakeCard(Match match)
         {
             if (match.Success)
             {

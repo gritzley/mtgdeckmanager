@@ -8,12 +8,24 @@ namespace MtgDeckManagerView.Logic
 {
     public class DeckEntry
     {
-        public string Name { get; set; }
+        public string Title { get; set; }
         public string Decklist { get; set; }
+
+        public List<string> DecklistDivided
+        {
+            get
+            {
+                return Decklist.Split('\n').ToList();
+            }
+            private set
+            {
+                Decklist = String.Join("\n", value);
+            }
+        }
 
         public DeckEntry(string title, string decklist)
         {
-            Name = title;
+            Title = title;
             Decklist = decklist;
         }
     }

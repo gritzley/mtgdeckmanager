@@ -9,9 +9,9 @@ C:\Users\Fritz Lloyd Wetzel\source\repos\MTGDeckManager\MTGDeckManager\obj\Debug
 C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManager\bin\Debug\netstandard2.0\MTGDeckManager.deps.json
 C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManager\bin\Debug\netstandard2.0\MTGDeckManager.dll
 C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManager\bin\Debug\netstandard2.0\MTGDeckManager.pdb
-C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManager\obj\Debug\netstandard2.0\MTGDeckManager.csprojAssemblyReference.cache
 C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManager\obj\Debug\netstandard2.0\MTGDeckManager.AssemblyInfoInputs.cache
 C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManager\obj\Debug\netstandard2.0\MTGDeckManager.AssemblyInfo.cs
 C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManager\obj\Debug\netstandard2.0\MTGDeckManager.csproj.CoreCompileInputs.cache
 C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManager\obj\Debug\netstandard2.0\MTGDeckManager.dll
 C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManager\obj\Debug\netstandard2.0\MTGDeckManager.pdb
+C:\Users\frwetzel\source\repos\mtgdeckmanager\MTGDeckManager\obj\Debug\netstandard2.0\MTGDeckManager.csprojAssemblyReference.cache

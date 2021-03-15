@@ -24,5 +24,10 @@ namespace MtgDeckManagerView
         {
             InitializeComponent();
         }
+
+        public void SelectedCardChanged(object sender, SelectionChangedEventArgs e)
+        {
+            
+        }
     }
 }

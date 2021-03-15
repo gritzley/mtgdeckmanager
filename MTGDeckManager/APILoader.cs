@@ -5,29 +5,47 @@ using MtgApiManager;
 using MtgApiManager.Lib.Service;
 using MtgApiManager.Lib.Model;
 using System.Threading.Tasks;
-using MtgApiManager.Lib.Core;
 using System.Linq;
+using System.IO;
+using System.Net;
+using QuickType;
+
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace MTGDeckManager
-{
+{   
     public static class APILoader
     {
         private static IMtgServiceProvider serviceProvider = new MtgServiceProvider();
-        public static async Task<ICard> GetCard(string name, string setID)
-        {
-            ICardService service = serviceProvider.GetCardService();
-            Exceptional<List<ICard>> result = await service.Where(x => x.Set, setID)
-                .Where(x => x.Name, name)
-                .AllAsync();
 
-            if (result.IsSuccess)
+        private static string baseURL = "https://api.magicthegathering.io/v1/cards";
+        public static async Task<CardSearchResult> GetCard(string name)
+        {
+            
+            string url = $"{baseURL}?name=\"{name}\"";
+
+            if (name.Contains("\'"))
             {
-                return result.Value[0];
+                url.Replace("\"", ""); // mtg api has a weird issue where the exact search will not return anythign if the card name contains apostrophes.
             }
-            else
-            {
-                return null;
-            }
+            WebRequest request = WebRequest.Create(url);
+
+            WebResponse response = request.GetResponse();
+
+            Stream dataStream = response.GetResponseStream();
+
+            StreamReader reader = new StreamReader(dataStream);
+
+            JsonTextReader json = new JsonTextReader(reader);
+
+            JsonSerializer jsonSerializer = new JsonSerializer();
+
+            CardSearchResult cards = jsonSerializer.Deserialize<CardSearchResult>(json);
+
+            response.Close();
+
+            return cards;
         }
     }
 }

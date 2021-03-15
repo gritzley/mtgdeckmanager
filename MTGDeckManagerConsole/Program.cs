@@ -11,8 +11,6 @@ namespace MTGDeckManagerConsole
         [STAThread]
         static void Main(string[] args)
         {
-            System.Console.WriteLine("test");
-            System.Console.ReadLine();
             deckManager = new DeckManager();
             bool running = true;
             do
@@ -59,7 +57,7 @@ namespace MTGDeckManagerConsole
 
         private static async void TestMethod()
         {
-            string s = (await APILoader.GetCard("The Birth of Meletis", "THB")).ForeignNames[0].Name;
+            string s = (await APILoader.GetCard("The Birth of Meletis")).ForeignNames[0].Name;
 
             Console.WriteLine(s);
         }
