@@ -27,7 +27,8 @@ namespace MTGDeckManager
 
             if (name.Contains("\'"))
             {
-                url.Replace("\"", ""); // mtg api has a weird issue where the exact search will not return anythign if the card name contains apostrophes.
+                url = $"{baseURL}?name={name}";
+                // mtg api has a weird issue where the exact search will not return anythign if the card name contains apostrophes.
             }
             WebRequest request = WebRequest.Create(url);
 
